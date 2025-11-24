@@ -1,0 +1,31 @@
+.features {
+  background: var(--light-gray);
+}
+
+.section-header {
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
+
+.section-header h2 {
+  margin-bottom: 16px;
+}
+
+.features-grid {
+  margin-top: 40px;
+}
+
+.feature-card {
+  text-align: center;
+  transition: var(--transition);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-xl);
+}

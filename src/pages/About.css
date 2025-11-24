@@ -1,0 +1,89 @@
+.about-hero {
+  padding-top: 3px;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: var(--gray);
+  max-width: 700px;
+  margin: 1px auto 0;
+}
+
+.story-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.story-text p {
+  font-size: 1.125rem;
+  line-height: 1.9;
+  margin-bottom: 1px;
+}
+
+.story-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-placeholder {
+  width: 50%;
+  max-width: 200px;
+  aspect-ratio: 1;
+  background: var(--light-gray);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.values-grid,
+.team-grid {
+  margin-top: 2px;
+}
+
+.value-card,
+.team-member {
+  text-align: center;
+}
+
+.value-icon,
+.member-avatar {
+  font-size: 3rem;
+  margin-bottom: 1px;
+}
+
+.member-avatar {
+  width: 100px;
+  height: 100px;
+  background: var(--light-gray);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1px;
+  font-size: 3rem;
+}
+
+.team-member h3 {
+  margin-bottom: 4px;
+}
+
+.member-role {
+  color: var(--primary);
+  font-weight:400;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .story-content {
+    grid-template-columns: 1fr;
+  }
+
+  .story-image {
+    order: -1;
+  }
+}

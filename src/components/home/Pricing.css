@@ -1,0 +1,126 @@
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pricing-card {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-xl);
+}
+
+.pricing-card.popular {
+  border: 3px solid var(--primary);
+  transform: scale(1.05);
+}
+
+.pricing-card.popular:hover {
+  transform: scale(1.05) translateY(-10px);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -15px;
+  right: 50%;
+  transform: translateX(50%);
+  background: var(--primary);
+  color: var(--white);
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.pricing-card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid var(--light-gray);
+}
+
+.amount {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.currency {
+  font-size: 1rem;
+  color: var(--gray);
+  margin-right: 8px;
+}
+
+.period {
+  font-size: 1rem;
+  color: var(--gray);
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 3px;
+  flex: 1;
+}
+
+.features-list li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+  color: var(--dark);
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  background: var(--success);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.pricing-note {
+  margin-top: 40px;
+}
+
+.pricing-note p {
+  font-size: 1rem;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .pricing-card.popular {
+    transform: scale(1);
+  }
+
+  .pricing-card.popular:hover {
+    transform: translateY(-10px);
+  }
+}
