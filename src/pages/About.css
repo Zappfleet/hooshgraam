@@ -1,18 +1,18 @@
 .about-hero {
-  padding-top: 3px;
+
 }
 
 .hero-subtitle {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--gray);
-  max-width: 700px;
+  max-width: 500px;
   margin: 1px auto 0;
 }
 
 .story-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 50px;
   align-items: center;
 }
 
@@ -26,12 +26,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   
 }
 
 .image-placeholder {
-  width: 50%;
-  max-width: 200px;
+  width: 40%;
+  max-width: 100px;
   aspect-ratio: 1;
   background: var(--light-gray);
   border-radius: 2px;
@@ -52,7 +53,7 @@
 
 .value-icon,
 .member-avatar {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1px;
 }
 

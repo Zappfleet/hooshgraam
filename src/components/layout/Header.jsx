@@ -14,7 +14,7 @@ const Header = () => {
     <header  className="header">
       <nav className="nav container " >
         <Link to="/" className="logo " >
-          <span className="logo-icon"><img src='/logo.png' ></img></span>
+          <img className="logo-icon" src='/images/logo.webp' ></img>
           <span className="logo-text"> هوشگرام</span>
         </Link>
 
@@ -36,7 +36,7 @@ const Header = () => {
           <li><Link to="/contact" onClick={() => setIsMenuOpen(false)}>تماس</Link></li>
         </ul>
 
-       <div className="nav-cta">
+       <div className="nav-cta ">
           {/*<Link to="/login" className="btn-link">ورود</Link>*/}
           <Link 
             to="/pricing" 

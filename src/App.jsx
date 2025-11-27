@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { logPageView } from './utils/analytics';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -8,10 +7,17 @@ import Pricing from './pages/Pricing';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
+import { initGA, logPageView } from './utils/analytics';
+
+
 
 function App() {
   const location = useLocation();
 
+ useEffect(() => {
+    // Initialize GA on mount
+    initGA();
+  }, []);
   // Track page views on route change
   useEffect(() => {
     logPageView();

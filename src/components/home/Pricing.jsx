@@ -104,14 +104,18 @@ const Pricing = () => {
                 ))}
               </ul>
 
-              <Link 
-                to="/signup" 
-                className={`btn ${plan.popular ? 'btn-primary' : 'btn-secondary'} btn-large`}
-                style={{ width: '100%' }}
-                onClick={() => trackCTAClick(plan.cta, 'Pricing')}
-              >
-                {plan.cta}
-              </Link>
+              <a
+ href="https://www.zarinpal.com/pg/StartPay/dc40d875-fc37-4933-806a-c7c3a83ac221"
+ 
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`btn ${plan.popular ? 'btn-primary' : 'btn-secondary'} btn-large`}
+  style={{ width: '100%' }}
+  onClick={() => trackCTAClick(plan.cta, 'Pricing')}
+
+>
+  {plan.cta}
+</a>
             </div>
           ))}
         </div>

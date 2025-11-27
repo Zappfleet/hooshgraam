@@ -1,10 +1,11 @@
 .header {
   position: sticky;
-  top: 0;
+  top:5px;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-sm);
   z-index: 1000;
+  
 }
 
 .nav {
@@ -17,16 +18,17 @@
 
 .logo {
   display: flex;
-  align-items: center;
+ align-items: center;
   gap: 10px;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   color: var(--primary);
   text-decoration: none;
 }
 
 .logo-icon {
-  font-size: 28px;
+  font-size: 20px;
+
 }
 
 .nav-menu {
@@ -39,7 +41,7 @@
 
 .nav-menu a {
   color: var(--dark);
-  font-weight: 500;
+  font-weight: 300;
   padding: 8px 0;
   position: relative;
   transition: var(--transition);
@@ -64,6 +66,8 @@
   display: flex;
   align-items: center;
   gap: 15px;
+ 
+ 
 }
 
 .btn-link {
@@ -134,11 +138,12 @@
   }
 
   .nav-cta {
-    order: 2;
-    gap: 10px;
+   display: none;
+  
   }
 
   .btn-link {
     display: none;
+    
   }
 }

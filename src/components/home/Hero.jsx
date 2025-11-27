@@ -34,7 +34,7 @@ const Hero = () => {
               </Link>*/}
             </div>
 
-            <div className="hero-stats">
+            <div className="hero-stats  ">
               <div className="stat">
                 <span className="stat-number">5000+</span>
                 <span className="stat-label">پیج فعال</span>

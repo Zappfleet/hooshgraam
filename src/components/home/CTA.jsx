@@ -14,7 +14,7 @@ const CTA = () => {
 
           <div className="cta-actions">
             <Link 
-              to="/signup" 
+              to="/pricing" 
               className="btn btn-primary btn-large"
               onClick={() => trackCTAClick('شروع رایگان', 'CTA Bottom')}
             >

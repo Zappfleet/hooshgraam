@@ -1,0 +1,35 @@
+name: Build and Deploy (FTP)
+
+on:
+  push:
+    branches:
+      - main   # یا هر شاخه‌ای که می‌خواهی
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (Vite)
+        run: npm run build
+
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          local-dir: dist
+          server-dir: ${{ secrets.REMOTE_DIR }}   # معمولاً public_html
+          protocol: ftp                         #  ftp؛     از  استفاده کن
+          git-ftp-args: --insecure               # در صورت نیاز (مثلاً certificate مشکل داره)

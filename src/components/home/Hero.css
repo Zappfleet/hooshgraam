@@ -45,7 +45,7 @@
 
 .hero-stats {
   display: flex;
-  gap: 40px;
+  gap: 35px;
   margin-bottom: 24px;
   flex-wrap: wrap;
 }
@@ -56,7 +56,7 @@
 }
 
 .stat-number {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--primary);
 }
@@ -250,7 +250,7 @@
 @media (max-width: 968px) {
   .hero-content {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 20px;
   }
 
   .hero-image {
@@ -262,11 +262,11 @@
   }
 
   .floating-badge {
-    display: none;
+   
   }
 
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .hero-cta {

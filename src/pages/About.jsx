@@ -44,7 +44,7 @@ const About = () => {
                 </p>
               </div>
               <div className="story-image">
-                  <img src='/logo-white.png'></img>
+                  <img src='/images/logo-white.png'></img>
                 
               </div>
             </div>
