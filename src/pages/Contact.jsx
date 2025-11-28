@@ -164,7 +164,9 @@ const Contact = () => {
                     </div>
                   )}
 
-                  <button type="submit" className="btn btn-primary btn-large" style={{ width: '100%' }}>
+                  <button type="submit" 
+                  className="btn btn-primary btn-large" 
+                  style={{ width: '100%' }}>
                     ارسال پیام
                   </button>
                 </form>

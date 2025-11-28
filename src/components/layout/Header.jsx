@@ -14,7 +14,7 @@ const Header = () => {
     <header  className="header">
       <nav className="nav container " >
         <Link to="/" className="logo " >
-          <img className="logo-icon" src='/images/logo.webp' ></img>
+          <img className="logo-icon" src='/images/logo.png' ></img>
           <span className="logo-text"> هوشگرام</span>
         </Link>
 

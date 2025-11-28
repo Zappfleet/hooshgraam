@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-col ">
         <div className="logo">
           <span className="logo-icon">
-            <img src="/images/logo.webp" alt="هوشگرام" />
+            <img src="/images/logo.png" alt="هوشگرام" />
           </span>
           <span className="logo-text">هوشگرام</span>
         </div>
@@ -58,14 +58,26 @@ const Footer = () => {
             style={{ height: "50px" }}
           />
         </a>
-
+<a
+  target="_blank"
+  href="https://trustseal.enamad.ir/?id=678560&Code=SFVmFf4hiEb6F30ljPzXSXKmsDvbtQHP"
+>
+  <img
+    referrerPolicy="origin"
+    src="https://trustseal.enamad.ir/logo.aspx?id=678560&Code=SFVmFf4hiEb6F30ljPzXSXKmsDvbtQHP"
+    alt=""
+    style={{ cursor: "pointer" }}
+    code="SFVmFf4hiEb6F30ljPzXSXKmsDvbtQHP"
+  />
+</a>
 
       </div>
-      
+
 
     </div>
 
     <div className="footer-bottom mt-6 text-center">
+  
       <p>© 2024 هوشگرام. تمامی حقوق محفوظ است.</p>
       <p>ساخته شده با ❤️ در ایران</p>
     </div>

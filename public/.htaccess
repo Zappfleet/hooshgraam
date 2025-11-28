@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # اجازه دسترسی مستقیم به فایل‌های واقعی
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # هدایت همه مسیرها به index.html (برای SPA)
+  RewriteRule . /index.html [L]
+</IfModule>
+

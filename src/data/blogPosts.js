@@ -95,7 +95,7 @@ export const blogPosts = [
     author: 'علی محمدی',
     date: '1403/08/20',
     readTime: '12 دقیقه',
-    image: '/blog/automation-guide.png',
+    image: '/blogImages/automation-guide.png',
     category: 'آموزش',
     tags: ['اتوماسیون', 'اینستاگرام', 'بازاریابی', 'راهنما'],
     keywords: 'اتوماسیون اینستاگرام, راهنمای اتوماسیون, ابزار مدیریت پیج, هوش مصنوعی اینستاگرام'
@@ -178,7 +178,7 @@ export const blogPosts = [
     author: 'سارا احمدی',
     date: '1403/08/18',
     readTime: '8 دقیقه',
-    image: '/blog/content-ideas.png',
+    image: '/blogImages/content-ideas.png',
     category: 'ایده محتوا',
     tags: ['محتوا', 'ایده', 'خلاقیت'],
     keywords: 'ایده پست اینستاگرام, تولید محتوا, ایده محتوای اینستاگرام'
@@ -285,7 +285,7 @@ Loop Effect: پایان ویدئو را به گونه‌ای طراحی کنید
     author: 'رضا کریمی',
     date: '1403/08/15',
     readTime: '15 دقیقه',
-    image: '/blog/algorithm.png',
+    image: '/blogImages/algorithm.png',
     category: 'آموزش',
     tags: ['الگوریتم', 'سئو', 'دیده‌شدن'],
     keywords: 'الگوریتم اینستاگرام, نحوه کار الگوریتم, افزایش ریچ اینستاگرام'
@@ -352,7 +352,7 @@ Lumen5 / Vidyo.ai: ابزاری تخصصی برای تبدیل سریع محتو
     author: 'علی محمدی',
     date: '1403/08/12',
     readTime: '10 دقیقه',
-    image: '/blog/ai-content.png',
+    image: '/blogImages/ai-content.png',
     category: 'هوش مصنوعی',
     tags: ['AI', 'هوش مصنوعی', 'تولید محتوا'],
     keywords: 'تولید محتوا با AI, هوش مصنوعی اینستاگرام, ChatGPT برای اینستاگرام'
@@ -439,7 +439,7 @@ Lumen5 / Vidyo.ai: ابزاری تخصصی برای تبدیل سریع محتو
     author: 'سارا احمدی',
     date: '1403/08/10',
     readTime: '9 دقیقه',
-    image: '/blog/reels-strategy.png',
+    image: '/blogImages/reels-strategy.png',
     category: 'استراتژی',
     tags: ['ریلز', 'ویدیو', 'ویروسی'],
     keywords: 'ریلز اینستاگرام, ویدیو ویروسی, ساخت ریلز'

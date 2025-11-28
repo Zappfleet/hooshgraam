@@ -7,7 +7,7 @@ export const OrganizationSchema = () => {
     "@type": "Organization",
     "name": " هوشگرام",
     "url": "https://hooshgraam.ir",
-    "logo": "https://hooshgraam.ir/logo.webp",
+    "logo": "https://hooshgraam.ir/logo.png",
     "description": "ابزار اتوماسیون و مدیریت هوشمند اینستاگرام با قابلیت تولید محتوا با هوش مصنوعی",
     "contactPoint": {
       "@type": "ContactPoint",
@@ -56,7 +56,7 @@ export const ArticleSchema = ({
       "name": " هوشگرام",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://hooshgraam.ir/logo.webp"
+        "url": "https://hooshgraam.ir/logo.png"
       }
     },
     "mainEntityOfPage": {

@@ -80,11 +80,16 @@
 }
 
 @media (max-width: 768px) {
-  .story-content {
-    grid-template-columns: 1fr;
-  }
+ .story-content {
+ 
+  grid-template-columns: 1fr ;
+  gap: 50px;
+  align-items: center;
+}
 
   .story-image {
-    order: -1;
+    display: none;
+    
+    
   }
 }

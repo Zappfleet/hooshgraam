@@ -37,6 +37,39 @@
     <priority>0.7</priority>
   </url>
   
-  <!-- Blog Posts - به محض اضافه شدن مقاله‌ها، اینجا آپدیت کنید -->
+ <url>
+    <loc>https://hooshgraam.ir/blog/automation-instagram-complete-guide-2024</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://hooshgraam.ir/blog/instagram-content-ideas-2024</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://hooshgraam.ir/blog/instagram-algorithm-2024</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://hooshgraam.ir/blog/ai-content-generation-instagram</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://hooshgraam.ir/blog/instagram-reels-strategy</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
   
 </urlset>
